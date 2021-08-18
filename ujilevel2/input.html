@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Makanan</title>
+</head>
+
+<body>
+    <form action="simpan.php" method="POST">
+        <h3>Input Data </h3>
+        <p>
+            <label>Kode Produk : <input type="text" class="ml-5 kode_pro" id="kodeProduk" name="kodeProduk" value="MD-001"></label>
+        </p>
+        <p>
+            <label>Nama Produk : <input type="text" name="nama"></label>
+        </p>
+        <p>
+            <label>Harga Produk : <input type="text" name="harga"></label>
+        </p>
+        <p>
+          <label>Satuan : <input type="text" name="satuan"></label>
+        </p>
+        <p>
+          <label>Kategori : <input type="text" name="kategori"></label>
+        </p>
+        <p>
+          <label>URL Gambar : <input type="url" name="gambar"></label>
+        </p>
+        <p>
+          <label>Stok Awal : <input type="text" name="stok"></label>
+        </p>
+        
+        <input type="submit" name="simpan" value="simpan">
+    </form>
+</body>
+
+</html>
